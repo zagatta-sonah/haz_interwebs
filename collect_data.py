@@ -21,3 +21,6 @@ with open('haz_ping.csv', mode='w') as haz_ping_file:
         print(ping)
         haz_ping.writerow([time.time(), str(ping)])
         time.sleep(1)
+
+        git config --global user.email "zagatta@sonah-parking.com"
+  git config --global user.name "zagatta-sonah"
